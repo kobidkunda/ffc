@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+Sitemap: http://femalefriendshipclub.com/sitemap.xml
+Sitemap: http://femalefriendshipclub.com/sitemap_1.xml
+Sitemap: http://femalefriendshipclub.com/sitemap_3.xml
+Sitemap: http://femalefriendshipclub.com/sitemap_2.xml
+Sitemap: http://femalefriendshipclub.com/sitemap_5.xml
+Sitemap: http://femalefriendshipclub.com/sitemap_4.xml

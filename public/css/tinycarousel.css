@@ -1,0 +1,202 @@
+/* Tiny Carousel */
+#slider1
+{overflow:hidden;
+ margin-top:0px;
+ margin-left:0px; 
+ width: 92px; 
+}
+#slider1 .viewport
+{width: 92px;
+ height:363px;
+ overflow: hidden;
+ position: relative; 
+ margin-top:0px; 
+}
+#slider1 .buttons
+{background:url(../phonafriendimage/registration/arrow.png) no-repeat;
+
+ display: block;
+ margin: 0px 0 0 26px;
+ background-position: 4px -17px;
+ text-indent: -999em;
+ float: left;
+ width: 39px;
+ height: 23px;
+ overflow: hidden;
+ position: relative;
+}
+#slider1 .next
+{background-position: 4px 7px;
+ margin: 0px 0 0 26px;
+}
+#slider1 .disable
+{opacity: 0.3;
+ cursor:context-menu;
+}
+#slider1 .overview
+{list-style: none;
+ position: absolute;
+ padding: 0;
+ margin: 0;
+ width: 80px; 
+ left: 0;
+ top: 0; 
+}
+#slider1 .overview li
+{float: left;
+ margin: 5px 5px 5px 5px;
+ padding: 1px;
+ height: 121px;
+ border: 1px solid red;
+ width: 80px;
+ height:80px;
+}
+
+/* Tiny Carousel slider2 */
+#slider2
+{overflow:hidden;
+ margin-top:0px;
+ margin-left:0px; 
+ width: 92px; 
+}
+#slider2 .viewport
+{width: 92px;
+ height:363px;
+ overflow: hidden;
+ position: relative; 
+ margin-top:0px; 
+}
+#slider2 .buttons
+{background:url(../phonafriendimage/registration/arrow.png) no-repeat 4px -17px;
+ display: block;
+ margin: 0px 0 0 26px;
+ text-indent: -999em;
+ float: left;
+ width: 39px;
+ height: 23px;
+ overflow: hidden;
+ position: relative;
+    top: 0px;
+    left: 0px;
+}
+#slider2 .next
+{background-position: 4px 7px;
+ margin: 0px 0 0 26px;
+}
+#slider2 .disable
+{opacity: 0.3;
+ cursor:context-menu;
+}
+#slider2 .overview
+{list-style: none;
+ position: absolute;
+ padding: 0;
+ margin: 0;
+ width: 80px; 
+ left: 0;
+ top: 0; 
+}
+#slider2 .overview li
+{float: left;
+ margin: 5px 5px 5px 5px;
+ padding: 1px;
+ height: 121px;
+ border: 1px solid red;
+ width: 80px;
+ height:80px;
+}
+
+.makemepopular {
+    width:173px;
+    height:66px;
+
+background: #ff0103; /* Old browsers */
+background: -moz-linear-gradient(top, #ff0103 0%, #fd494a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0103), color-stop(100%,#fd494a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ff0103 0%,#fd494a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ff0103 0%,#fd494a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ff0103 0%,#fd494a 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ff0103 0%,#fd494a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0103', endColorstr='#fd494a',GradientType=0 ); /* IE6-9 */
+
+border:medium none;
+ color: white;
+font-size: 11px;
+font-weight: bold;
+cursor: pointer;
+position:relative;
+
+}
+
+.uparrow {
+     border-bottom: 26px solid transparent;
+    border-left: 18px solid red;
+    border-top: 26px solid transparent;
+    height: 0;
+    margin-left: 75px;
+    margin-top: -20px;
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 0;
+}
+
+.addmebtn {
+    width:173px;
+    height:30px;
+
+background: #fd494a; /* Old browsers */
+background: -moz-linear-gradient(top, #fd494a 0%, #ff0103 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd494a), color-stop(100%,#ff0103)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fd494a 0%,#ff0103 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fd494a 0%,#ff0103 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fd494a 0%,#ff0103 100%); /* IE10+ */
+background: linear-gradient(to bottom, #fd494a 0%,#ff0103 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd494a', endColorstr='#ff0103',GradientType=0 ); /* IE6-9 */
+
+position:relative;
+border:medium none;
+font-weight:bold;
+color:white;
+cursor: pointer;
+font-size:16px;
+}
+
+.addmearrow {
+    border-bottom: 26px solid transparent;
+    border-left: 18px solid red;
+    border-top: 26px solid transparent;
+    height: 0;
+    margin-left: 75px;
+    margin-top: -20px;
+    position: absolute;
+    transform: rotate(90deg);
+    width: 0;
+}
+
+.checkarrow strong {
+
+   color: white;
+   font-size: 16px;
+   margin-left: -152px;
+   margin-top: 18px;
+   position: absolute;
+   text-align: center;
+
+}
+
+.checkarrow {
+    position:relative;
+}
+
+.verifiedadjust2 {
+     margin-top: 40px;
+     cursor: default;
+}
+
+
+.verifiedadjust {
+     margin-top: 12px;
+}
+
+
+
